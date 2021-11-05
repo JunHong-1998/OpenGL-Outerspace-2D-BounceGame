@@ -1,4 +1,4 @@
-# FCG-Outerspace-Bounce-
+# OpenGL-Outerspace-2DBounce Game
 This application named ‘OUTERSPACE’ inspired by movie ‘Passenger’ and ‘Alien vs Predator’ is made in 2 weeks. 
 The windowing system, audio system and key function is implemented by Pygame while others object shown in this application is fully drawn by Pyopengl using python object-oriented framework. Generally, there are four main classes which are ‘BounceBall’, ‘BounceProps’, ‘BounceMap’ and BounceMain’. External library such as numpy and math is imported for mathematical calculation. The player is turned into a white outline sphere that trying to escape from the spaceship in this game. There are 3 levels in total and there will be monsters waiting to stop player from escaping the spaceship.
 ‘BounceMap’ has all levels of map features and positions for the entire game. It will draw out the map according to the current level and position of player. Then, it will update the whole map to the ‘BounceBall’ class for collision detection purposes by level.
